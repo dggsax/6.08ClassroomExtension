@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "MIT EECS Class Layout",
+    "version": "0.1.0",
+    "description": "Interactive Class Layout for 6.08 and other courses",
+  
+    "content_scripts": [
+        {
+            "matches": ["*://iesc.io/608/*/queue*"],
+            "js": ["map.js"]
+        }
+    ],
+
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
+
